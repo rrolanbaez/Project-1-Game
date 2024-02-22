@@ -11,7 +11,7 @@ class Game {
             4,     
             10, 
             10,
-            "../images/kite_girl.png",
+            "./images/kite_girl.png",
         );
             
         this.height = 600; // background ocean
@@ -37,7 +37,7 @@ class Game {
         this.isMoving = true; //for the obstacles 
 
         // For background sound:
-        this.backgroundMusic = new Audio("../sound/musicbyaden-surf.mp3");
+        this.backgroundMusic = new Audio("./sound/musicbyaden-surf.mp3");
         this.backgroundMusic.loop = true;
         this.backgroundMusic.volume = 0.15; //setting volume to 15%
     };
