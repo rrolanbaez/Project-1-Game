@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Kite Jump</title>    
+    </head>
+
+    <body>
+        <main>
+            <!-- #game-intro Game Home Page -->
+            <div id="game-intro">
+                <img src="images/kitesurfRushLogo.png" alt="kitesurflogo" class="logo-img" />
+                <br />
+                <button id="start-button">Start Game</button>
+                <p>Use the spacebar to jump over the obstacles!</p>
+            </div>
+           
+            <div id="game-container">
+                <!-- for keeping track of lives -->
+                <div id="stats-container">
+                  <h2>Stats</h2>
+                  <p>Score: <span id="score">0</span></p>
+                  <p>Lives: <span id="lives">3</span></p>
+                </div>
+
+                <!-- #game-screen is initially hidden using CSS style display: none -->
+                <div id="game-screen"></div>
+                <div class="containers" id="clock-container">
+                <p>Time left: <span id="clock">30</span></p>
+                </div>
+            </div>
+
+            <!-- #game-end is initially hidden using CSS style display: none -->
+            <div id="game-end">
+                <img src="images/kitesurfRushLogo.png" alt="kitesurflogo" class="logo-img" />
+                <h1>Game Over!</h1>
+                <br />
+                <p id="end-message"></p>
+                <br />
+                <button id="restart-button">Restart</button>
+            </div>
+            </main>
+            
+        </main>
+    
+        <script type="text/javascript" src="js/obstacle.js"></script>
+        <script type="text/javascript" src="js/kitesurfer.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="js/script.js"></script> 
+
+        <footer> Made by Roxangelica Rolan for Ironhack bootcamp. 💙 </footer>
+        
+
+    </body>
+
+</html>

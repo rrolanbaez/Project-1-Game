@@ -1,0 +1,76 @@
+*{
+    font-family:  Tahoma;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+} 
+
+
+#game-intro {
+    padding: 20px 0px;
+}
+
+#game-container {
+    display: flex;
+    width: 100vw;
+    padding: 20px 0px;
+    justify-content: space-around;
+}
+
+#game-screen {
+display: none;
+align-content: center;
+padding: 20px 50px;
+overflow: hidden;
+position: relative;
+background-image: url(images/landscapeOcean.PNG); 
+background-size: cover;
+animation: slide 5s linear infinite;
+}
+
+@keyframes jump {
+    0% {top: 150px;}
+    30% {top: 130px;}
+    50% {top: 80px;}
+    80% {top: 130px;}
+    100% {top: 150px;}  
+}
+
+@keyframes obstacles {
+    0%{left:480px;}
+    100%{left:-40px;}
+    
+}
+
+#game-end {
+    display: none;
+}
+
+.game-intro p {
+    font-size: 18px;
+    font-family: "Verdana";
+}
+
+.logo-img {
+    width: 400px;
+    height: 400px;
+}
+
+body button {
+    font-size: 30px;
+    background-color: aqua;
+    color: black;
+    padding: 20px 40px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer{
+    font-size: 10px;
+}
+
