@@ -13,12 +13,14 @@ body {
     padding: 20px 0px;
 }
 
+
 #game-container {
     display: flex;
     width: 100vw;
     padding: 20px 0px;
     justify-content: space-around;
 }
+
 
 #game-screen {
 display: none;
@@ -51,7 +53,6 @@ animation: slide 5s linear infinite;
 
 .game-intro p {
     font-size: 18px;
-    font-family: "Verdana";
 }
 
 .logo-img {
@@ -66,7 +67,8 @@ body button {
     padding: 20px 40px;
     border: 0;
     box-shadow: 0;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 

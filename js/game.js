@@ -42,7 +42,7 @@ class Game {
         this.backgroundMusic.volume = 0.15; //setting volume to 15%
     };
 
-    // METHODS TO CONTROL BACKGROUND SOUND: 
+    // Methods to control background sound: 
     startBackgroundMusic(){
         this.backgroundMusic.play().catch(e => console.error("Error playing music:", e));
     };
